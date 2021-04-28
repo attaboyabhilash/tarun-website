@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 10%;
+    background-color: #2c3e50;
+    color: #f4f4f4;
+}
+
+.foot_header {
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.links {
+    margin-bottom: 15px;
+    font-size: 0.9em;
+}
+
+.links a {
+    position: relative;
+    margin-right: 15px;
+}
+
+.footer_right {
+    text-align: right;
+}
+
+.icons {
+    margin-bottom: 60px;
+}
+
+.facebook,
+.insta {
+    font-size: 1.6em;
+    padding: 3.5px 4px;
+    margin-left: 15px;
+    border-radius: 2px;
+}
+
+.facebook {
+    background-color: #1778f2;
+    color: #fff;
+}
+
+.insta {
+    background: radial-gradient(
+            circle farthest-corner at 35% 90%,
+            #fec564,
+            transparent 50%
+        ),
+        radial-gradient(
+            circle farthest-corner at 0 140%,
+            #fec564,
+            transparent 50%
+        ),
+        radial-gradient(
+            ellipse farthest-corner at 0 -25%,
+            #5258cf,
+            transparent 50%
+        ),
+        radial-gradient(
+            ellipse farthest-corner at 20% -50%,
+            #5258cf,
+            transparent 50%
+        ),
+        radial-gradient(
+            ellipse farthest-corner at 100% 0,
+            #893dc2,
+            transparent 50%
+        ),
+        radial-gradient(
+            ellipse farthest-corner at 60% -20%,
+            #893dc2,
+            transparent 50%
+        ),
+        radial-gradient(
+            ellipse farthest-corner at 100% 100%,
+            #d9317a,
+            transparent
+        ),
+        linear-gradient(
+            #6559ca,
+            #bc318f 30%,
+            #e33f5f 50%,
+            #f77638 70%,
+            #fec66d 100%
+        );
+    background-color: #bc318f;
+    color: #fff;
+}
+
+.signature {
+    font-size: 0.75em;
+}
+
+.heart {
+    font-size: 1.4em;
+    padding-top: 5px;
+    color: #ea2027;
+}

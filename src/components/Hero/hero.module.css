@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+.hero_section {
+    color: #f4f4f4;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.svg_module {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 10;
+}
+
+.svg_module svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transition: all 350ms ease-in-out;
+}
+
+.shape_fill {
+    fill: #ffffff;
+}
+
+.bakery {
+    width: 100%;
+    height: 750px;
+    z-index: 2;
+    position: relative;
+}
+
+.hero_section::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero_title {
+    position: absolute;
+    top: 200px;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+.hero_subTitle {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 250px;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.autoComplete {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 300px;
+    width: 500px;
+    margin: auto;
+}
+
+.autoComplete input[type="text"] {
+    background-color: #eef3f8;
+    font-weight: 600;
+    font-size: 1em;
+}
