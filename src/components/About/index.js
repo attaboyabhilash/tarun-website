@@ -8,27 +8,39 @@ const index = () => {
             <div className={styles.about_details}>
                 <section>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Maecenas accumsan massa vel orci suscipit vehicula.
-                        Suspendisse porta vulputate scelerisque. Ut eleifend,
-                        sapien et egestas interdum, arcu dui gravida mauris,
-                        quis cursus metus erat non tortor. Praesent laoreet
-                        aliquam tellus, in mollis mauris sollicitudin sit amet.
-                        Pellentesque habitant morbi tristique senectus et netus
-                        et malesuada fames ac turpis egestas. Vivamus vitae nisi
-                        leo. Aliquam et malesuada justo. Quisque aliquet nec
-                        sapien nec porta. Nulla et urna quis ligula pellentesque
-                        volutpat mattis porta metus. Praesent pellentesque
-                        cursus gravida.
+                        For those with a sweet tooth, Rangoli Sweets, Restaurant
+                        and Bakers offer a range of desserts. Located close to
+                        the Bank of Baroda, this bakery serves some old
+                        favourites like brownies, pastries and cookies. It
+                        stands out for the quality of its cakes and cookies. Try
+                        the fresh fruit cakes on your visit to this bakery.
+                        Other than sweets, you can also enjoy a fine dining
+                        experience at this property. You can relish a full
+                        course meal or just munch on some freshly prepared
+                        snacks. Other than the wide menu and good quality food,
+                        the staff of the restaurant will also impress you with
+                        its friendly behaviour and prompt services.
                     </p>
                     <p>
-                        Integer vel mollis lacus, vel aliquam libero. Curabitur
-                        suscipit id turpis id pretium. Maecenas eget facilisis
-                        sapien. Fusce fringilla enim non dui fringilla
-                        sollicitudin. Curabitur id lorem odio. Donec est turpis,
-                        porta sit amet commodo quis, finibus eget mi. Ut mattis
-                        mattis convallis. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit.
+                        Rangoli sweets, restaurant and bakers, Pithoragarh is a
+                        perfect destination for a great time with your dear
+                        ones. Enjoy the attractions of this popular tourist
+                        spot. With so much to lure your senses and offer you
+                        recreation at its best, get drenched in the spirit of
+                        adventure that you get to explore at rangoli sweets,
+                        restaurant and bakers, Pithoragarh. Enjoy together all
+                        the points of popular interests and bring back several
+                        memorable moments. Rangoli sweets, restaurant and
+                        bakers, Pithoragarh is the sure way to refresh and relax
+                        after a busy weekday. Explore interesting themes,
+                        fabulous designs, colorful landscapes, amusing
+                        characters, ambient music, props and merchandise
+                        available in nearby stores- all at one place. Rangoli
+                        sweets, restaurant and bakers, Pithoragarh is the best
+                        way to have a memorable time with kids and family. So,
+                        enjoy a fulfilling outing at rangoli sweets, restaurant
+                        and bakers in Pithoragarh and make sure to visit Rangoli
+                        Sweets when in Pithoragarh.
                     </p>
                 </section>
                 <section>

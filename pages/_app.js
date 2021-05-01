@@ -3,6 +3,7 @@ import { useRouter } from "next/router"
 import Layout from "../src/components/Layout"
 import { Spinner } from "evergreen-ui"
 import "../styles/globals.css"
+import "antd/dist/antd.css"
 
 const MyApp = ({ Component, pageProps }) => {
     const router = useRouter()

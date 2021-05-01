@@ -13,11 +13,12 @@
     margin-bottom: 10px;
     font-family: "Montserrat", sans-serif;
     color: #f4f4f4 !important;
+    font-weight: 600;
 }
 
 .links {
     margin-bottom: 15px;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 .links a {
@@ -31,12 +32,12 @@
 }
 
 .icons {
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 
 .facebook,
 .insta {
-    font-size: 1.6em;
+    font-size: 1.8em;
     padding: 3.5px 4px;
     margin-left: 15px;
     border-radius: 2px;
@@ -95,7 +96,11 @@
 }
 
 .signature {
-    font-size: 0.75em;
+    font-size: 0.8em;
+    color: #f4f4f4 !important;
+}
+
+.signature a {
     color: #f4f4f4 !important;
 }
 

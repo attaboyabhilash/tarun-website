@@ -51,7 +51,7 @@ const index = () => {
                                   }
                                 : router.pathname === "/products"
                                 ? {
-                                      color: "inherit",
+                                      color: "#000",
                                   }
                                 : router.pathname === "/"
                                 ? {
@@ -76,7 +76,7 @@ const index = () => {
                                       }
                                     : router.pathname === "/products"
                                     ? {
-                                          color: "inherit",
+                                          color: "#121212",
                                       }
                                     : router.pathname === "/"
                                     ? {
@@ -100,7 +100,7 @@ const index = () => {
                                       }
                                     : router.pathname === "/products"
                                     ? {
-                                          color: "inherit",
+                                          color: "#121212",
                                       }
                                     : router.pathname === "/"
                                     ? {

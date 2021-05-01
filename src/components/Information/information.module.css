@@ -1,0 +1,8 @@
+.information {
+    width: 300px;
+    margin: 50px 100px;
+}
+
+.information p {
+    font-family: "Roboto", sans-serif;
+}

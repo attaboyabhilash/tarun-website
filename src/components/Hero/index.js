@@ -52,7 +52,9 @@ const index = () => {
                 Rangoli Sweets, Restaurant &amp; Bakers
             </h1>
             <p className={styles.hero_subTitle}>
-                The best sweets and bakers in Pithoragarh.
+                For those with a sweet tooth, Rangoli Sweets, Restaurant and
+                Bakers offer a wide range of sweets and desserts. The best
+                sweets and bakers shop in whole Pithoragarh.
             </p>
             <div className={styles.autoComplete}>
                 <Autocomplete

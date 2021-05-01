@@ -16,14 +16,16 @@
 .header h2 {
     margin: 0;
     color: #000;
+    font-weight: 700;
+    font-size: 1.8em;
 }
 
 .links a span {
     font-family: "Montserrat", sans-serif;
-    font-size: 0.85em;
+    font-size: 1em;
     font-weight: 600;
     margin-right: 0;
-    margin-left: 20px;
+    margin-left: 30px;
     color: #000;
 }
 

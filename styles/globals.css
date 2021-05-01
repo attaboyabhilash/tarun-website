@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 
 html,
 body {
@@ -48,4 +49,14 @@ a {
     z-index: 201;
     stroke: #0788de;
     opacity: 0.5;
+}
+
+.ant-form-item-required::before {
+    display: none !important;
+}
+
+.ant-collapse-header {
+    font-weight: 500;
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
 }

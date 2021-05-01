@@ -8,6 +8,8 @@
 
 .about h2 {
     font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1.8em;
 }
 
 .about_details {
@@ -24,6 +26,7 @@
 
 .about_details section p {
     word-break: break-all;
+    font-family: "Roboto", sans-serif;
 }
 
 .about_details section img {

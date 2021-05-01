@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+.contact_card {
+    width: 600px;
+    margin: 100px auto;
+    padding: 30px 50px;
+    box-shadow: 4px 4px 12px #eee, -4px -4px 12px #f4f4f4;
+}
+
+.header {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.button_app {
+    width: fit-content;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.button_app button {
+    text-align: center;
+}
