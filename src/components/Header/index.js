@@ -31,7 +31,8 @@ const index = () => {
                               "4px 4px 12px #eee, -4px -4px 12px #f4f4f4",
                           backgroundColor: "#FFF",
                       }
-                    : router.pathname === "/products"
+                    : router.pathname === "/products" ||
+                      router.pathname === "/404"
                     ? {
                           boxShadow:
                               "4px 4px 12px #eee, -4px -4px 12px #f4f4f4",
@@ -51,6 +52,10 @@ const index = () => {
                                 : router.pathname === "/products"
                                 ? {
                                       color: "inherit",
+                                  }
+                                : router.pathname === "/"
+                                ? {
+                                      color: "#f4f4f4",
                                   }
                                 : {}
                         }
@@ -73,6 +78,10 @@ const index = () => {
                                     ? {
                                           color: "inherit",
                                       }
+                                    : router.pathname === "/"
+                                    ? {
+                                          color: "#f4f4f4",
+                                      }
                                     : {}
                             }
                         >
@@ -92,6 +101,10 @@ const index = () => {
                                     : router.pathname === "/products"
                                     ? {
                                           color: "inherit",
+                                      }
+                                    : router.pathname === "/"
+                                    ? {
+                                          color: "#f4f4f4",
                                       }
                                     : {}
                             }

@@ -23,7 +23,16 @@ const MyApp = ({ Component, pageProps }) => {
 
     return (
         <Layout>
-            {pageLoading ? <Spinner /> : <Component {...pageProps} />}
+            {pageLoading ? (
+                <div className="spinner">
+                    <div className="inner_spinner">
+                        <Spinner size={48} />
+                        <h4>Loading</h4>
+                    </div>
+                </div>
+            ) : (
+                <Component {...pageProps} />
+            )}
         </Layout>
     )
 }

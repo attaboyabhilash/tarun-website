@@ -16,7 +16,7 @@ const index = () => {
                     <Link href="/">
                         <a>Home</a>
                     </Link>
-                    <Link href="/about">
+                    <Link href="/#about">
                         <a>About</a>
                     </Link>
                     <Link href="/products">
@@ -37,7 +37,7 @@ const index = () => {
                     </a>
                     <a
                         target="_blank"
-                        href="https://www.instagram.com/rangolisweets/"
+                        href="https://www.instagram.com/rangoli_sweets/"
                     >
                         <FaInstagram className={styles.insta} />
                     </a>

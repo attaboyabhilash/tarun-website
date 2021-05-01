@@ -1,15 +1,17 @@
 import Hero from "../src/components/Hero"
-import styles from "../styles/home.module.css"
+import About from "../src/components/About"
+import Contact from "../src/components/Contact"
+import FAQ from "../src/components/FAQ"
+import Information from "../src/components/Information"
 
 export default function Home() {
     return (
         <>
             <Hero />
-            <img
-                src="/assets/cursor.svg"
-                alt="cursor"
-                className={styles.cursor}
-            />
+            <About />
+            <Contact />
+            <FAQ />
+            <Information />
             <div style={{ height: "100vh", width: "100%" }}></div>
         </>
     )

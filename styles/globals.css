@@ -5,6 +5,7 @@ body {
     font-family: "Roboto", sans-serif;
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -14,4 +15,37 @@ a {
 
 * {
     box-sizing: border-box;
+}
+
+.spinner {
+    height: 100vh;
+    padding-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 200;
+}
+
+.inner_spinner {
+    width: fit-content;
+    display: block;
+}
+
+.inner_spinner h4 {
+    color: #0788de;
+    opacity: 0.5;
+    font-family: "Roboto", sans-serif;
+}
+
+.inner_spinner div {
+    margin: auto;
+}
+
+.inner_spinner svg circle {
+    position: relative;
+    z-index: 201;
+    stroke: #0788de;
+    opacity: 0.5;
 }

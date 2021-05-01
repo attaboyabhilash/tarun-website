@@ -12,6 +12,7 @@
     margin: 0;
     margin-bottom: 10px;
     font-family: "Montserrat", sans-serif;
+    color: #f4f4f4 !important;
 }
 
 .links {
@@ -22,6 +23,7 @@
 .links a {
     position: relative;
     margin-right: 15px;
+    color: #f4f4f4 !important;
 }
 
 .footer_right {
@@ -94,6 +96,7 @@
 
 .signature {
     font-size: 0.75em;
+    color: #f4f4f4 !important;
 }
 
 .heart {

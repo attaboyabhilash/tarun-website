@@ -87,3 +87,25 @@
     font-weight: 600;
     font-size: 1em;
 }
+
+.cursor {
+    width: 40px;
+    position: absolute;
+    z-index: 11;
+    top: 600px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: rotateZ(224deg);
+    animation: MoveUpDown 2s linear infinite;
+}
+
+@keyframes MoveUpDown {
+    0%,
+    100% {
+        top: 600px;
+    }
+    50% {
+        top: 620px;
+    }
+}

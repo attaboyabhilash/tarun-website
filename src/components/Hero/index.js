@@ -98,6 +98,13 @@ const index = () => {
                     Search
                 </Button>
             </div>
+            {scrollPositionYAXIS < 150 ? (
+                <img
+                    src="/assets/cursor.svg"
+                    alt="cursor"
+                    className={styles.cursor}
+                />
+            ) : null}
         </div>
     )
 }
