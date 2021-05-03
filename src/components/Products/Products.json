@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Product 1",
+        "image": "/assets/products/rasgulla.jpg",
+        "price": 200
+    },
+    {
+        "id": 2,
+        "title": "Product 2",
+        "image": "/assets/products/rasgulla.jpg",
+        "price": 320
+    },
+    {
+        "id": 3,
+        "title": "Product 3",
+        "image": "/assets/products/rasgulla.jpg",
+        "price": 620
+    },
+    {
+        "id": 4,
+        "title": "Product 4",
+        "image": "/assets/products/rasgulla.jpg",
+        "price": 230
+    },
+    {
+        "id": 5,
+        "title": "Product 5",
+        "image": "/assets/products/rasgulla.jpg",
+        "price": 500
+    },
+    {
+        "id": 6,
+        "title": "Product 6",
+        "image": "/assets/products/rasgulla.jpg",
+        "price": 290
+    },
+    {
+        "id": 7,
+        "title": "Product 7",
+        "image": "/assets/products/rasgulla.jpg",
+        "price": 520
+    },
+    {
+        "id": 8,
+        "title": "Product 8",
+        "image": "/assets/products/rasgulla.jpg",
+        "price": 340
+    },
+    {
+        "id": 9,
+        "title": "Product 9",
+        "image": "/assets/products/rasgulla.jpg",
+        "price": 220
+    },
+    {
+        "id": 10,
+        "title": "Product 10",
+        "image": "/assets/products/rasgulla.jpg",
+        "price": 250
+    },
+    {
+        "id": 11,
+        "title": "Product 11",
+        "image": "/assets/products/rasgulla.jpg",
+        "price": 400
+    },
+    {
+        "id": 12,
+        "title": "Product 12",
+        "image": "/assets/products/rasgulla.jpg",
+        "price": 600
+    }
+]

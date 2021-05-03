@@ -1,6 +1,8 @@
-import { Card } from "antd"
 import React from "react"
+import CardModel from "./CardModel"
+import { Button } from "evergreen-ui"
 import styles from "./products.module.css"
+import Products from "./Products.json"
 
 const index = () => {
     return (
@@ -9,9 +11,25 @@ const index = () => {
             <p>
                 We offer a wide range of products from sweets to bakery items.
             </p>
-            <Card hoverable title="Product 1" style={{ width: "250px" }}>
-                This is description of product
-            </Card>
+            <div className={styles.cardTab}>
+                {Products.map(prod => {
+                    return (
+                        <CardModel
+                            id={prod.id}
+                            title={prod.title}
+                            image={prod.image}
+                            price={prod.price}
+                        />
+                    )
+                })}
+            </div>
+            <Button
+                appearance="minimal"
+                height={40}
+                className={styles.see_more}
+            >
+                See More
+            </Button>
         </div>
     )
 }

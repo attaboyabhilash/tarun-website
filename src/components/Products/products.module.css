@@ -1,3 +1,58 @@
 .products {
     margin: 50px 10%;
 }
+
+.products h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1.8em;
+}
+
+.products p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.card {
+    width: 275px;
+    margin: 20px auto;
+}
+
+.card_thumb {
+    height: 275px;
+    overflow: hidden;
+}
+
+.card p {
+    margin-bottom: 0px;
+    font-size: 1.1em;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+.card p span {
+    font-weight: 400;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cardTab {
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(7em, 24em));
+    justify-content: center;
+}
+
+.see_more {
+    float: right;
+}
+
+.see_more:focus {
+    box-shadow: none !important;
+}
+
+@media only screen and (max-width: 1260px) {
+    .cardTab {
+        grid-template-columns: repeat(auto-fit, minmax(7em, 22em));
+    }
+}
